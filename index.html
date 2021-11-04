@@ -3,6 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
     <title>Title</title>
     <style>
         svg {
@@ -18,20 +25,29 @@
 <body>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md">
             <svg viewBox="0 0 1000 1000" id="figure1"></svg>
         </div>
-        <div class="col-md-4">
+        <div class="col-md">
             <svg viewBox="0 0 1000 1000" id="figure2"></svg>
         </div>
         <div class="w-100"></div>
-        <div class="col-md-4">
+        <div class="col-md">
             <svg viewBox="0 0 1000 1000" id="figure3"></svg>
         </div>
-        <div class="col-md-4">
+        <div class="col-md">
             <svg viewBox="0 0 1000 1000" id="figure4"></svg>
         </div>
     </div>
+
+
+
+    <!-- jQuery 3 -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="js/bootstrap.min.js"></script>
+
+
     <script>
 
         d3.tsv("./data/palmer_penguin_species.tsv")
